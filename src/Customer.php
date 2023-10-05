@@ -1,6 +1,6 @@
 <?php
 
-namespace MuhamamdAbrar\Belajar;
+namespace MuhammadAbrar\Belajar;
 
 class Customer{
 
@@ -8,7 +8,7 @@ class Customer{
     {
     }
 
-    public function sayHai(string $name):string{
+    public function sayHai(string $name = "Guest"):string{
         return"Hai $name, My name is $this->name";
     }
 }
